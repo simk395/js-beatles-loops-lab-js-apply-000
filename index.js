@@ -18,11 +18,10 @@ return facts;
 
 function iLoveTheBeatles(int){
   var quote = [];
-  var i = 0;
   do{
     quote[i] = "I love the Beatles!";
-    i++
+    int++
   }
-  while(i < int);
+  while(int < 15);
   return quote;
 }
