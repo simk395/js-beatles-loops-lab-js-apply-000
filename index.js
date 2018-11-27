@@ -23,6 +23,6 @@ function iLoveTheBeatles(int){
     quote[i] = "I love the Beatles!";
     i++
   }
-  while(i < 15);
+  while(i < int);
   return quote;
 }
