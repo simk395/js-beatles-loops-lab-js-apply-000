@@ -19,7 +19,7 @@ return facts;
 function iLoveTheBeatles(int){
   var quote = [];
   do{
-    quote[i] = "I love the Beatles!";
+    quote[int] = "I love the Beatles!";
     int++
   }
   while(int < 15);
